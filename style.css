@@ -1,0 +1,63 @@
+body{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.custom-navbar {
+  padding: 6px 16px;
+}
+
+/* Logo */
+.logo {
+  max-height: 80px; 
+  width: auto;
+}
+
+/* Custom buttons */
+.custom-btn {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 6px 14px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.custom-btn:hover {
+  background-color: rgba(0, 0, 0, 0.85);
+  transform: translateY(-1px);
+}
+
+/*Login Form*/
+.login_form {
+  padding: 30px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 350px;
+  width: 100%;
+}
+
+.credentials {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.credentials label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.credentials input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+input::placeholder {
+  font-size: 14px;
+  color: #aaa;
+}
